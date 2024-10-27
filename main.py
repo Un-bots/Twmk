@@ -5,7 +5,7 @@ from telegram import (
     InlineKeyboardMarkup,
     InlineKeyboardButton
 )
-from telegram.ext import (
+from pyrogram import (
     Updater,
     Filters,
     CommandHandler,
