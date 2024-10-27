@@ -6,12 +6,11 @@ from telegram import (
     InlineKeyboardButton
 )
 from pyrogram import (
-    Updater,
     Filters,
     CommandHandler,
     MessageHandler
 )
-
+from telegram.exe import Updater
 
 main_keyboard = [
     ['ℹ Help', '💰 Donate']
